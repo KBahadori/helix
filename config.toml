@@ -1,0 +1,14 @@
+theme = "tokyonight_moon"
+
+[editor]
+bufferline = "always"
+auto-format = true
+mouse = false
+line-number = "relative"
+
+[editor.file-picker]
+git-ignore = false
+
+[editor.cursor-shape]
+# insert = "bar"
+# select = "underline"
