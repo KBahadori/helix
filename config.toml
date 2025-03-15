@@ -1,19 +1,16 @@
 theme = "doom_acario_dark"
 
-[editor.clipboard-provider.custom]
-yank = { command = "clip.exe" }
-paste = { command = "powershell.exe", args = ["-command", "Get-Clipboard | Out-String"] }
-
 
 
 [editor]
+clipboard-provider = "win32-yank"
 bufferline = "always"
 auto-format = true
 mouse = false
 line-number = "relative"
 
 [editor.file-picker]
-git-ignore = false
+git-ignore = true
 
 [editor.cursor-shape]
 # insert = "bar"
