@@ -1,4 +1,10 @@
-theme = "tokyonight_moon"
+theme = "doom_acario_dark"
+
+[editor.clipboard-provider.custom]
+yank = { command = "clip.exe" }
+paste = { command = "powershell.exe", args = ["-command", "Get-Clipboard | Out-String"] }
+
+
 
 [editor]
 bufferline = "always"
